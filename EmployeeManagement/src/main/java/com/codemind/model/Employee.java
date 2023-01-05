@@ -20,6 +20,8 @@ import lombok.Setter;
 @Table(name = "emp_tbl")
 public class Employee {
 	
+	//Set generated id
+	
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	@Column(name = "id")
